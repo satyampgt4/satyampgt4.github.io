@@ -2,7 +2,7 @@ import Projectdata from "../data/Projectdata";
 import ProjectCard from "./ProjectCard";
 import "./static/projects.css";
 function Projects() {
-  const baseUrl = "https://raw.githubusercontent.com/satyampgt4/portfolio/master/src/component/images/";
+  const baseUrl = "https://raw.githubusercontent.com/satyampgt4/satyampgt4.github.io/master/src/component/images/";
   return (
     <>
       <div

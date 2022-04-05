@@ -2,7 +2,7 @@ import ExperienceCard from "./ExperienceCard";
 import Experiencedata from "../data/Experiencedata";
 import "./static/experience.css";
 
-const baseUrl = "https://raw.githubusercontent.com/satyampgt4/portfolio/master/src/component/logo/";
+const baseUrl = "https://raw.githubusercontent.com/satyampgt4/satyampgt4.github.io/master/src/component/logo/";
 function Experiences() {
   return (
     <>
@@ -17,7 +17,7 @@ function Experiences() {
           return (
             <ExperienceCard
               key={index}
-              src={baseUrl + val.src}
+              src={baseUrl+ val.src}
               alt={val.alt}
               date={val.date}
               orgn={val.orgn}
