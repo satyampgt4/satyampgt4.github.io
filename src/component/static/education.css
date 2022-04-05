@@ -1,0 +1,54 @@
+#education {
+  padding: 50px 15px 20px 15px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+#education h2 {
+  color: var(--heading);
+  margin-bottom: 50px;
+}
+
+.education-block {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.education-block h3 {
+  font-weight: 500;
+  float: left;
+  margin: 0;
+  color: var(--heading);
+}
+
+.education-block span {
+  color: var(--text);
+  float: right;
+}
+
+.education-block h4 {
+  color: var(--text);
+  clear: both;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+}
+
+.education-block p,
+.education-block ul {
+  margin: 0;
+  color: var(--text);
+  font-size: 0.9em;
+}
+
+.education-block ul {
+  padding: 0 0 0 15px;
+}
+@media only screen and (max-width: 768px) {
+  .education-block h3,
+  .education-block span {
+    float: none;
+  }
+}

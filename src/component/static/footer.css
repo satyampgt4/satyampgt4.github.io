@@ -1,0 +1,63 @@
+footer {
+  padding: 50px 0;
+}
+
+.copyright {
+  padding-top: 20px;
+}
+
+.copyright p {
+  margin: 0;
+  color: var(--text);
+}
+.top {
+  text-align: center;
+}
+
+.top span {
+  cursor: pointer;
+  display: block;
+  margin: 15px auto 0 auto;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  text-align: center;
+}
+
+.top i {
+  color: #fff;
+}
+
+.social {
+  text-align: right;
+}
+
+.social ul {
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+.social li {
+  display: inline-block;
+  font-size: 1.25em;
+  list-style: none;
+}
+
+.social a {
+  display: block;
+  color: var(--text);
+  padding: 10px;
+}
+
+.social a:hover {
+  color: var(--base-color);
+}
+@media only screen and (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+  .social {
+    text-align: center;
+  }
+}

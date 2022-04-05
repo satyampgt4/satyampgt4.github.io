@@ -1,0 +1,28 @@
+#skills {
+  padding: 50px 15px;
+  text-align: center;
+}
+
+#skills h2 {
+  color: var(--heading);
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+#skills ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
+}
+
+#skills li {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: var(--heading);
+  /* background: var(--bgc1o2); */
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+}
